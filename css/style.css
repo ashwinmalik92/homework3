@@ -71,8 +71,22 @@ tr:hover {
 }
 tr {}
 * {}
-thead tr:first-child th:first-child {}
+thead tr:first-child th:first-child {
+  border-radius: 5px 0 0 0;
+}
+thead tr:first-child th:last-child {
+  border-radius: 0 5px 0 0;
+}
+tbody tr:last-child th:last-child {
+  border-radius: 0 0 0 5px;
+}
+tbody tr:last-child th:last-child {
+  border-radius: 0 0 5px 0;
+}
 
+h1, table, .datacite {
+  margin: 0 auto;
+}
 footer {
   position: fixed;
   left: 0px;
