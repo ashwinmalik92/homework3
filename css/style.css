@@ -8,20 +8,24 @@ There are some missing selectors.
 Make sure to learn what the starter code does!!
 */
 
-body{
+body {
   color: black;
-  font-family: sans-serif;
+  font-family: 'Andika', sans-serif;
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
 }
 
-main{
+:focus {
+  border: 1px solid black;
+}
+
+main {
   margin-bottom: 100px;
 }
 
-h1{
+h1 {
   color: #8000FF;
   font-size: 2em;
   line-height: 1.5;
@@ -32,9 +36,14 @@ caption{
   margin:5px 0px;
 }
 
-p{}
+p {
+    padding-top: 10px;
+}
 
-a{}
+a {
+  color: #B21F50;
+  text-decoration: wavy;
+}
 
 table{
     border: 2px solid black;
